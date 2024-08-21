@@ -1,0 +1,49 @@
+.tagsearch_search {
+  display: flex;
+  flex-direction: column;
+  width: 100% !important;
+
+  
+}
+
+.tagsearch_search input {
+    margin: 0 !important;
+    border: .5px solid !important; 
+   
+}
+
+.tagsearch_searchresult {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  
+    background-color: turquoise;
+    margin: 10px;
+    width: fit-content;
+    padding: 4px;
+    font-weight: 700;
+}
+
+.tagsearch_searchresult:hover {
+    background-color: #00b3b3;
+    cursor: pointer;
+}
+
+.tagsearch_searchresult:active {
+    background-color: #008080;
+}
+
+.tagsearch_resultcontainer {
+    display: flex;
+    width: 100%;
+
+    align-items: center;
+    flex-direction: row !important;
+    justify-content: start !important;
+
+    flex-wrap: wrap;
+
+    
+    
+}

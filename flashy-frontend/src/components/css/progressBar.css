@@ -1,0 +1,18 @@
+.progressContainer {
+    width: 44%;
+    margin: 40px auto; 
+    background-color: #ddd; 
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+
+.progressBar {
+    height: 20px;
+    width: 0; 
+    background-color: #4CAF50; 
+    border-radius: 10px;
+    transition: width 0.5s ease-in-out; 
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+}
